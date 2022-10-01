@@ -19,7 +19,7 @@ public class Bill {
 	}
 	
 	public double feeding() {
-		return beer + barbecue + softDrink;
+		return beer * 5.0 + barbecue * 7.0 + softDrink * 3.0;
 	}
 	
 	public double ticket() {
